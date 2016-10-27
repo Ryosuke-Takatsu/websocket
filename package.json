@@ -6,14 +6,13 @@
     "url": "https://github.com/heroku-examples/node-ws-test.git"
   },
   "dependencies": {
-    "express": “4.13.4”,
-    "ws": "0.4.x"
+    "express": “^4.13.4”,
+    "ws": “0.8.0”
   },
   "engines": {
-    "node": "0.10.x"
-    "npm":  "1.2.10"
+    "node": "0.10.25”
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node chat_server.js"
   }
 }
